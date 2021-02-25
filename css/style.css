@@ -1,0 +1,45 @@
+.homenav {
+  margin: 0;
+  background-color: rgb(240, 240, 240);
+}
+
+.hometitle {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  padding: 10px;
+  font-size: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hometitletext {
+  cursor: pointer;
+  text-shadow: 4px 4px 4px #969696;
+  transition: font-size 0.5s;
+}
+.hometitletext:hover {
+  font-size: 75px;
+  transition: font-size 0.5s;
+}
+
+.homearrow {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: rgb(221, 221, 221);
+  transition: background 0.5s;
+  border-radius: 50%;
+  text-shadow: none;
+  bottom: 20px;
+}
+.homearrow:hover {
+  background: rgb(160, 160, 160);
+  transition: background 0.5s;
+  cursor: pointer;
+}
+.homearrowtext {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
