@@ -12,3 +12,14 @@ body * {
   border: 0;
 }
 
+/* Nav */
+
+#nav {
+  position: absolute;
+  background: white;
+  display: flex;
+  padding: 10px;
+  height: 80px;
+  width: 100vw;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.315);
+}
